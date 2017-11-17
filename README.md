@@ -18,10 +18,8 @@ The project's original work site is available [here](http://cs.oswego.edu/~icamp
 
 ## Running the program
 
-First, the C code must be compiled, this is meant to be done with:
-   gcc -std=c99 -o tbgmsnd.exe
+First, the C code must be compiled, this is meant to be done with `gcc -std=c99 tbgmsnd.c -o tbgmsnd.exe`
    
-then all that needs to be done is load up the tbmg.l file in clisp. This can be done with:
-   (load "tbmg.l")
+then all that needs to be done is load up the tbmg.l file in clisp. This can be done by launching clisp and entering `(load "tbmg.l")`
    
 The program will provide prompts after that :)
